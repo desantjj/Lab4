@@ -23,31 +23,36 @@ class Main {
         if (i > 0) {
           System.out.println(i);
           i--;
-        }else {
+        }
+        else {
           System.out.println(i);
           System.out.println("Ahoy mateys!");
           i--;
         }
       }
-    }else if (42>b&&b>25) {
+    }
+    else if (42>b&&b>25) {
       int i = b;
       while (i >= 0) {
         if (i > 0) {
           System.out.println(i);
           i--;
-        }else {
+        }
+        else {
           System.out.println(i);
           System.out.println("Cannonball!");
           i--;
         }
       }
-    }else {
+    }
+    else {
       int i = b;
       while (i >= 0) {
         if (i > 0) {
           System.out.println(i);
           i--;
-        }else {
+        }
+        else {
           System.out.println(i);
           System.out.println("Blast off!");
           i--;
